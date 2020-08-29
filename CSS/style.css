@@ -58,7 +58,7 @@
 * Banner
 */
 .banner {
-	background-image: url("images/leaf.png");
+	background-image: url("/images/leaf.png");
 	background-repeat: no-repeat;
 	background-size: 160px;
 }
