@@ -126,6 +126,7 @@
 
 .primary-button:hover {
 	color: #263a41;
+	text-decoration: none;
 }
 
 .primary-button {
@@ -407,10 +408,16 @@
 	margin-top: 20px;
 }
 
-.secondary-banner-buttons {
+.article-box:hover .article-button {
+	background-color: #ff817e;
+	transition: all 300ms ease-in-out;
+}
+
+.article-secondary-button {
 	color: #fff;
 }
-.secondary-banner-buttons:hover {
+
+.article-banner-button:hover {
 	color: #fff;
 	text-decoration: none;
 }
@@ -478,6 +485,7 @@
 	margin-top: 60px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 300px;
 }
 
 .team-row {
@@ -522,10 +530,16 @@
 }
 
 .team-names-banner {
-	background-color: rgba(255, 255, 255, 0.87);
+	position: relative;
+	bottom: 50px;
 	margin-right: 55px;
 	margin-left: 55px;
 	margin-bottom: 60px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: #fff;
+	box-shadow: 0 5px 20px #f0f0f0;
+	transition: all 0.3s ease-in-out;
 }
 
 .team-position {
@@ -535,4 +549,36 @@
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 27px;
+}
+
+.team-socials {
+	display: none;
+	justify-content: center;
+}
+
+.team-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+.team-icons:hover {
+	background-color: #ff817e;
+}
+.team-icons:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+.team-picture-row-banner:hover .team-names-banner {
+	bottom: 100px;
+	height: 100px;
+}
+
+.team-picture-row-banner:hover .team-socials {
+	display: flex;
 }
