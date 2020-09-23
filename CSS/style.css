@@ -199,6 +199,7 @@
 .section-butterfly-image {
 	margin-top: 10%;
 }
+
 .section-subtitle {
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
@@ -244,6 +245,7 @@
 .secondary-banner-button {
 	color: #fff;
 }
+
 .secondary-banner-button:hover {
 	color: #263a41;
 	text-decoration: none;
@@ -353,6 +355,7 @@
 	border: 1px solid #e3e6ea;
 	background: #fff;
 }
+
 .containers {
 	display: grid;
 	grid-gap: 30px;
@@ -470,6 +473,7 @@
 .client-name {
 	font-size: 22px;
 }
+
 .client-position {
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
@@ -570,6 +574,7 @@
 .team-icons:hover {
 	background-color: #ff817e;
 }
+
 .team-icons:not(:last-of-type) {
 	margin-right: 10px;
 }
